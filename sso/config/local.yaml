@@ -1,0 +1,8 @@
+env: "local"
+storage_path: "./sso/storage/sso.db"
+migrations_path: "./sso/migrations"
+migrations_table: "migrations"
+token_ttl: 1h
+grpc:
+  port: 44044
+  timeout: 10h
